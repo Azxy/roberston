@@ -1,0 +1,296 @@
+body {
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: black;
+}
+
+[class|="col"] {
+    padding: 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-toggle .fa-search {
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.app-navbar a {
+    color: white;
+    font-weight: bold;
+}
+
+.app-navbar-btn {
+    background: transparent;
+    border: none;
+}
+
+.navbar .icon-bar {
+    background: white;
+}
+
+.app-thumbnail {
+    padding: 0px;
+    border: none;
+    margin: 0px;
+}
+
+.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.app-image {
+    height: 250px;
+    background-size: cover !important;
+    padding: 30px;
+    position: relative;
+}
+
+.app-belt-drive {
+    background: url('../images/toothed-belt-drive-209677_1920.jpg');
+}
+
+.app-game {
+    background: url('../images/game-289470_1920.jpg');
+    background-repeat: round;
+}
+
+.app-game-content {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.app-helicopter {
+    background: url('../images/helicopter-2116548_1920.jpg');
+}
+
+.app-space-station {
+    background: url('../images/space-station-2114660_1920.jpg');
+}
+
+.app-line-1 {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.app-line-2 {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.app-line-3 {
+    color: #D0D1D3;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.app-line-4 {
+    color: #CDCDCD;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.app-spl-label {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.app-spl-label-version {
+    background: #CC0001;
+    color: #0B4B54;
+    font-size: 1em;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+    line-height: 3px;
+    font-weight: bold;
+}
+
+.app-watch-btn {
+    margin-top: 35px;
+}
+
+.app-red-btn {
+    background: #cc0001;
+    border: none;
+}
+
+.app-btn {
+    color: white;
+    width: auto;
+    height: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.app-btn:hover {
+    animation: app-highlight 1s linear;
+}
+
+.app-transparent-btn {
+    background: rgba(0, 0, 0, 0.2);
+    border: 3px solid white;
+    margin-left: 20px;
+}
+
+.app-grey-text {
+    color: #989898;
+}
+
+.app-bottom-section-1 {
+    padding: 20px;
+    min-height: 350px;
+    background: #2A2D32;
+}
+
+.app-bottom-section-2 {
+    padding: 20px;
+    min-height: 350px;
+    background: #252525;
+}
+
+.app-bottom-section-1 ul,
+.app-bottom-section-2 ul {
+    padding: 0px 20px;
+}
+
+.app-footer {
+    padding: 20px;
+    background: #333333;
+}
+
+.app-footer-name {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.app-header-white {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.app-header-blue {
+    color: #0F8DBD;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.app-header-grey {
+    color: #666666;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.app-icon {
+    font-size: 1.3em;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.app-side-menu {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    opacity: 0.98;
+    height: 100vh;
+    width: 200px;
+    background: #282828;
+}
+
+.app-side-menu-item {
+    border: 1px solid #666666;
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.app-side-menu .app-side-menu-item {
+    color: #989898;
+    text-align: center;
+}
+
+.app-side-menu-cross {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.app-side-menu-cross:hover {
+    color: white;
+}
+
+.app-side-menu .app-side-menu-item:hover {
+    color: white;
+    background: #494949;
+    text-decoration: none;
+    animation: app-highlight 1s linear;
+}
+
+.app-side-menu .active {
+    color: white;
+    background: #494949;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.app-black-border {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.app-black-border.app-game {
+    border: 5px solid black;
+}
+
+@keyframes app-highlight {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.carousel-caption .app-line-3 {
+    font-size: 1em;
+}
+
+.app-blur {
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.app-text-over-blur {
+    position: absolute;
+}

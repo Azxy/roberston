@@ -1,0 +1,84 @@
+@media (min-width: 400px) {
+    .carousel-indicators {
+        bottom: 1.5em;
+    }
+    .carousel-caption {
+        padding-bottom: 5em;
+    }
+}
+
+@media (min-width: 500px) {
+    .carousel-indicators {
+        bottom: 3em;
+    }
+    .carousel-caption {
+        padding-bottom: 10em;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .carousel-indicators {
+        bottom: 5em;
+    }
+    .carousel-caption {
+        padding-bottom: 15em;
+    }
+    .app-spl-label {
+        font-size: 2.5em;
+    }
+    .app-spl-label-version {
+        line-height: 14px;
+    }
+    .app-btn {
+        width: 200px;
+        height: 50px;
+        font-size: 1.5em;
+    }
+    .app-spl-label {
+        font-size: 3.5em;
+    }
+    .app-spl-label-version {
+        font-size: 1em;
+        margin-left: 20px;
+        line-height: 25px;
+    }
+    .carousel-caption .app-line-3 {
+        font-size: 1.8em;
+    }
+    .app-image {
+        height: 500px;
+    }
+    .app-watch-btn {
+        margin-top: 100px;
+    }
+    .app-line-1 {
+        font-size: 1.7em;
+    }
+    .app-line-3 {
+        margin: 20px 0px;
+        font-size: 1.8em;
+    }
+    body {
+        font-size: 15px;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px and up) {
+    .carousel-indicators {
+        bottom: 6em;
+    }
+    .carousel-caption {
+        padding-bottom: 20em;
+    }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px and up) {}
