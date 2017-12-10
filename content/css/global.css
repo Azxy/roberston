@@ -1,7 +1,9 @@
+/* Setting default values */
+
 body {
     font-size: 12px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: black;
+    background: #2A2D32;
 }
 
 [class|="col"] {
@@ -17,12 +19,27 @@ body {
     padding: 0px;
 }
 
+.app-nav-background {
+    background: #333333;
+}
+
 .navbar-toggle .fa-search {
     font-size: 20px;
     color: white;
     margin-left: 20px;
     cursor: pointer;
 }
+
+.carousel-caption .app-line-3 {
+    font-size: 1em;
+}
+
+#app-carousel img {
+    opacity: 0.8;
+}
+
+
+/* app classes */
 
 .app-navbar a {
     color: white;
@@ -44,10 +61,8 @@ body {
     margin: 0px;
 }
 
-.thumbnail img {
-    max-height: 100%;
-    max-width: 100%;
-}
+
+/* Image related classes */
 
 .app-image {
     height: 250px;
@@ -78,6 +93,9 @@ body {
 .app-space-station {
     background: url('../images/space-station-2114660_1920.jpg');
 }
+
+
+/* app text relaed classes */
 
 .app-line-1 {
     color: white;
@@ -122,6 +140,31 @@ body {
     font-weight: bold;
 }
 
+.app-grey-text {
+    color: #989898;
+}
+
+.app-header-white {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.app-header-blue {
+    color: #0F8DBD;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.app-header-grey {
+    color: #666666;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+/* App button related classes */
+
 .app-watch-btn {
     margin-top: 35px;
 }
@@ -150,9 +193,8 @@ body {
     margin-left: 20px;
 }
 
-.app-grey-text {
-    color: #989898;
-}
+
+/* App section related classes */
 
 .app-bottom-section-1 {
     padding: 20px;
@@ -183,23 +225,8 @@ body {
     font-size: 1em;
 }
 
-.app-header-white {
-    color: white;
-    font-size: 1.2em;
-    font-weight: bold;
-}
 
-.app-header-blue {
-    color: #0F8DBD;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.app-header-grey {
-    color: #666666;
-    font-size: 1.5em;
-    font-weight: bold;
-}
+/* App menu related classes */
 
 .app-icon {
     font-size: 1.3em;
@@ -268,19 +295,6 @@ body {
     border: 5px solid black;
 }
 
-@keyframes app-highlight {
-    from {
-        opacity: 0.5;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-.carousel-caption .app-line-3 {
-    font-size: 1em;
-}
-
 .app-blur {
     height: 100%;
     width: 100%;
@@ -293,4 +307,16 @@ body {
 
 .app-text-over-blur {
     position: absolute;
+}
+
+
+/* animation keyframe definitions */
+
+@keyframes app-highlight {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
 }

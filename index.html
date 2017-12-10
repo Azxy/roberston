@@ -8,19 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
 
+    <!-- Adding plugin and app css dependencies -->
     <link href="scripts/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="scripts/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="scripts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="content/css/global.css" rel="stylesheet">
     <link href="content/css/app-media-query.css" rel="stylesheet">
 
+    <!-- Adding plugin and app js dependencies -->
     <script src="scripts/jquery/jquery-3.2.1.min.js"></script>
     <script src="scripts/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="./scripts/app.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-dropdown transparent navbar-fixed-top bg-color">
+    <!-- App main and side navbar -->
+    <nav id="app-navbar" class="navbar navbar-dropdown transparent navbar-fixed-top bg-color">
         <div class="container-fluid">
             <div class="row">
                 <div class="navbar-header app-navbar col-xs-12 col-xs-offset-0 col-md-offset-1 col-md-10">
@@ -55,6 +58,7 @@
 
     <div class="container-fluid">
         <div id="home">
+            <!-- App carousel -->
             <div id="app-carousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -123,6 +127,7 @@
                 </a>
             </div>
 
+            <!-- App images with text top of it -->
             <div class="row">
                 <div class="col-xs-12 col-md-5 app-image app-belt-drive app-black-border">
                     <div class="app-blur"></div>
@@ -145,6 +150,7 @@
                 </div>
             </div>
 
+            <!-- App video -->
             <div class="row">
                 <div class="col-xs-12 app-image app-space-station">
                     <div class="app-spl-label">ELEKTRA
@@ -161,6 +167,7 @@
                 </div>
             </div>
 
+            <!-- App Compatibility and specification section -->
             <div class="row app-grey-text">
                 <div class="col-xs-12 col-md-4 app-bottom-section-1">
                     <div class="app-header-blue">Compatibility</div>
@@ -193,7 +200,7 @@
                             <li>3D Particale Shapes</li>
                             <li>Wireframe</li>
                             <li>Sub Surface Scattering</li>
-                            <li>Shados and AO</li>
+                            <li>Shadows and AO</li>
                         </ul>
                     </div>
                     <br/>
@@ -207,6 +214,7 @@
                 </div>
             </div>
 
+            <!-- App footer -->
             <div id="contact" class="row app-grey-text app-footer">
                 <div class="col-xs-5">
                     <div class="app-footer-name">ROBERTSON</div>
@@ -228,6 +236,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
